@@ -1,0 +1,1065 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from demo.interface.club/limitless/demo/Template/layout_1/LTR/default/full/picker_date.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Mar 2022 07:34:13 GMT -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by FC</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../../../../global_assets/js/main/jquery.min.js"></script>
+	<script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../../../../global_assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/pickers/daterangepicker.js"></script>
+	<script src="../../../../global_assets/js/plugins/pickers/pickadate/picker.js"></script>
+	<script src="../../../../global_assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+	<script src="../../../../global_assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+	<script src="../../../../global_assets/js/plugins/pickers/pickadate/legacy.js"></script>
+	<script src="../../../../global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+
+	<script src="assets/js/app.js"></script>
+	<script src="../../../../global_assets/js/demo_pages/picker_date.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-expand-lg navbar-dark navbar-static">
+		<div class="d-flex flex-1 d-lg-none">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
+				<i class="icon-paragraph-justify3"></i>
+			</button>
+			<button class="navbar-toggler sidebar-mobile-main-toggle" type="button">
+				<i class="icon-transmission"></i>
+			</button>
+		</div>
+
+		<div class="navbar-brand text-center text-lg-left">
+			<a href="index.html" class="d-inline-block">
+				<img src="" class="d-none d-sm-block" alt="">
+				<img src="../../../../global_assets/images/logo_icon_light.png" class="d-sm-none" alt="">
+			</a>
+		</div>
+
+		<div class="collapse navbar-collapse order-2 order-lg-1" id="navbar-mobile">
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+					<a href="#" class="navbar-nav-link" data-toggle="dropdown">
+						<i class="icon-git-compare"></i>
+						<span class="d-lg-none ml-3">Git updates</span>
+						<span class="badge badge-warning badge-pill ml-auto ml-lg-0">9</span>
+					</a>
+
+					<div class="dropdown-menu dropdown-content wmin-lg-350">
+						<div class="dropdown-content-header">
+							<span class="font-weight-semibold">Git updates</span>
+							<a href="#" class="text-body"><i class="icon-sync"></i></a>
+						</div>
+
+						<div class="dropdown-content-body dropdown-scrollable">
+							<ul class="media-list">
+								<li class="media">
+									<div class="mr-3">
+										<a href="#" class="btn bg-transparent border-primary text-primary rounded-pill border-2 btn-icon"><i class="icon-git-pull-request"></i></a>
+									</div>
+
+									<div class="media-body">
+										Drop the IE <a href="#">specific hacks</a> for temporal inputs
+										<div class="text-muted font-size-sm">4 minutes ago</div>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<a href="#" class="btn bg-transparent border-warning text-warning rounded-pill border-2 btn-icon"><i class="icon-git-commit"></i></a>
+									</div>
+
+									<div class="media-body">
+										Add full font overrides for popovers and tooltips
+										<div class="text-muted font-size-sm">36 minutes ago</div>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<a href="#" class="btn bg-transparent border-info text-info rounded-pill border-2 btn-icon"><i class="icon-git-branch"></i></a>
+									</div>
+
+									<div class="media-body">
+										<a href="#">Chris Arney</a> created a new <span class="font-weight-semibold">Design</span> branch
+										<div class="text-muted font-size-sm">2 hours ago</div>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<a href="#" class="btn bg-transparent border-success text-success rounded-pill border-2 btn-icon"><i class="icon-git-merge"></i></a>
+									</div>
+
+									<div class="media-body">
+										<a href="#">FC</a> merged <span class="font-weight-semibold">Master</span> and <span class="font-weight-semibold">Dev</span> branches
+										<div class="text-muted font-size-sm">Dec 18, 18:36</div>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<a href="#" class="btn bg-transparent border-primary text-primary rounded-pill border-2 btn-icon"><i class="icon-git-pull-request"></i></a>
+									</div>
+
+									<div class="media-body">
+										Have Carousel ignore keyboard events
+										<div class="text-muted font-size-sm">Dec 12, 05:46</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="dropdown-content-footer bg-light">
+							<a href="#" class="text-body mr-auto">All updates</a>
+							<div>
+								<a href="#" class="text-body" data-popup="tooltip" title="Mark all as read"><i class="icon-radio-unchecked"></i></a>
+								<a href="#" class="text-body ml-2" data-popup="tooltip" title="Bug tracker"><i class="icon-bug2"></i></a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+			<span class="badge badge-success my-3 my-lg-0 ml-lg-3">Online</span>
+
+			<ul class="navbar-nav ml-lg-auto">
+				<li class="nav-item dropdown">
+					<a href="#" class="navbar-nav-link" data-toggle="dropdown">
+						<i class="icon-people"></i>
+						<span class="d-lg-none ml-3">Messages</span>
+					</a>
+
+					<div class="dropdown-menu dropdown-menu-right dropdown-content wmin-lg-300">
+						<div class="dropdown-content-header">
+							<span class="font-weight-semibold">Users online</span>
+							<a href="#" class="text-body"><i class="icon-search4 font-size-base"></i></a>
+						</div>
+
+						<div class="dropdown-content-body dropdown-scrollable">
+							<ul class="media-list">
+								<li class="media">
+									<div class="mr-3">
+										<img src="../../../../global_assets/images/demo/users/face18.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#" class="media-title font-weight-semibold">Jordana Ansley</a>
+										<span class="d-block text-muted font-size-sm">Lead web developer</span>
+									</div>
+									<div class="ml-3 align-self-center"><span class="badge badge-mark border-success"></span></div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="../../../../global_assets/images/demo/users/face24.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#" class="media-title font-weight-semibold">Will Brason</a>
+										<span class="d-block text-muted font-size-sm">Marketing manager</span>
+									</div>
+									<div class="ml-3 align-self-center"><span class="badge badge-mark border-danger"></span></div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="../../../../global_assets/images/demo/users/face17.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#" class="media-title font-weight-semibold">Hanna Walden</a>
+										<span class="d-block text-muted font-size-sm">Project manager</span>
+									</div>
+									<div class="ml-3 align-self-center"><span class="badge badge-mark border-success"></span></div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="../../../../global_assets/images/demo/users/face19.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#" class="media-title font-weight-semibold">Dori Laperriere</a>
+										<span class="d-block text-muted font-size-sm">Business developer</span>
+									</div>
+									<div class="ml-3 align-self-center"><span class="badge badge-mark border-warning"></span></div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<img src="../../../../global_assets/images/demo/users/face16.jpg" width="36" height="36" class="rounded-circle" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#" class="media-title font-weight-semibold">Vanessa Aurelius</a>
+										<span class="d-block text-muted font-size-sm">UX expert</span>
+									</div>
+									<div class="ml-3 align-self-center"><span class="badge badge-mark border-secondary"></span></div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="dropdown-content-footer bg-light">
+							<a href="#" class="text-body mr-auto">All users</a>
+							<a href="#" class="text-body"><i class="icon-gear"></i></a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<ul class="navbar-nav flex-row order-1 order-lg-2 flex-1 flex-lg-0 justify-content-end align-items-center">
+			<li class="nav-item nav-item-dropdown-lg dropdown">
+				<a href="#" class="navbar-nav-link navbar-nav-link-toggler" data-toggle="dropdown">
+					<i class="icon-bubbles4"></i>
+					<span class="badge badge-warning badge-pill ml-auto ml-lg-0">2</span>
+				</a>
+
+				<div class="dropdown-menu dropdown-menu-right dropdown-content wmin-lg-350">
+					<div class="dropdown-content-header">
+						<span class="font-weight-semibold">Messages</span>
+						<a href="#" class="text-body"><i class="icon-compose"></i></a>
+					</div>
+
+					<div class="dropdown-content-body dropdown-scrollable">
+						<ul class="media-list">
+							<li class="media">
+								<div class="mr-3 position-relative">
+									<img src="../../../../global_assets/images/demo/users/face10.jpg" width="36" height="36" class="rounded-circle" alt="">
+								</div>
+
+								<div class="media-body">
+									<div class="media-title">
+										<a href="#">
+											<span class="font-weight-semibold">James Alexander</span>
+											<span class="text-muted float-right font-size-sm">04:58</span>
+										</a>
+									</div>
+
+									<span class="text-muted">who knows, maybe that would be the best thing for me...</span>
+								</div>
+							</li>
+
+							<li class="media">
+								<div class="mr-3 position-relative">
+									<img src="../../../../global_assets/images/demo/users/face3.jpg" width="36" height="36" class="rounded-circle" alt="">
+								</div>
+
+								<div class="media-body">
+									<div class="media-title">
+										<a href="#">
+											<span class="font-weight-semibold">Margo </span>
+											<span class="text-muted float-right font-size-sm">12:16</span>
+										</a>
+									</div>
+
+									<span class="text-muted">That was something he was unable to do because...</span>
+								</div>
+							</li>
+
+							<li class="media">
+								<div class="mr-3">
+									<img src="../../../../global_assets/images/demo/users/face24.jpg" width="36" height="36" class="rounded-circle" alt="">
+								</div>
+								<div class="media-body">
+									<div class="media-title">
+										<a href="#">
+											<span class="font-weight-semibold">Jeremy Victorino</span>
+											<span class="text-muted float-right font-size-sm">22:48</span>
+										</a>
+									</div>
+
+									<span class="text-muted">But that would be extremely strained and suspicious...</span>
+								</div>
+							</li>
+
+							<li class="media">
+								<div class="mr-3">
+									<img src="../../../../global_assets/images/demo/users/face4.jpg" width="36" height="36" class="rounded-circle" alt="">
+								</div>
+								<div class="media-body">
+									<div class="media-title">
+										<a href="#">
+											<span class="font-weight-semibold">Beatrix Diaz</span>
+											<span class="text-muted float-right font-size-sm">Tue</span>
+										</a>
+									</div>
+
+									<span class="text-muted">What a strenuous career it is that I've chosen...</span>
+								</div>
+							</li>
+
+							<li class="media">
+								<div class="mr-3">
+									<img src="../../../../global_assets/images/demo/users/face25.jpg" width="36" height="36" class="rounded-circle" alt="">
+								</div>
+								<div class="media-body">
+									<div class="media-title">
+										<a href="#">
+											<span class="font-weight-semibold">Richard Vango</span>
+											<span class="text-muted float-right font-size-sm">Mon</span>
+										</a>
+									</div>
+
+									<span class="text-muted">Other travelling salesmen live a life of luxury...</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="dropdown-content-footer justify-content-center p-0">
+						<a href="#" class="btn btn-light btn-block border-0 rounded-top-0" data-popup="tooltip" title="Load more"><i class="icon-menu7"></i></a>
+					</div>
+				</div>
+			</li>
+
+			<li class="nav-item nav-item-dropdown-lg dropdown dropdown-user h-100">
+				<a href="#" class="navbar-nav-link navbar-nav-link-toggler dropdown-toggle d-inline-flex align-items-center h-100" data-toggle="dropdown">
+					<img src="" class="rounded-pill mr-lg-2" height="34" alt="">
+					<span class="d-none d-lg-inline-block">User</span>
+				</a>
+
+				<div class="dropdown-menu dropdown-menu-right">
+					<a href="#" class="dropdown-item"><i class="icon-user-plus"></i> My profile</a>
+					<a href="#" class="dropdown-item"><i class="icon-coins"></i> My balance</a>
+					<a href="#" class="dropdown-item"><i class="icon-comment-discussion"></i> Messages <span class="badge badge-primary badge-pill ml-auto">58</span></a>
+					<div class="dropdown-divider"></div>
+					<a href="#" class="dropdown-item"><i class="icon-cog5"></i> Account settings</a>
+					<a href="#" class="dropdown-item"><i class="icon-switch2"></i> Logout</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!-- /main navbar -->
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main sidebar -->
+		<div class="sidebar sidebar-dark sidebar-main sidebar-expand-lg">
+
+			<!-- Sidebar content -->
+			<div class="sidebar-content">
+
+				<!-- User menu -->
+				<div class="sidebar-section sidebar-user my-1">
+					<div class="sidebar-section-body">
+						<div class="media">
+							<a href="#" class="mr-3">
+								<img src="../../../../global_assets/images/demo/users/face11.jpg" class="rounded-circle" alt="">
+							</a>
+
+							<div class="media-body">
+								<div class="font-weight-semibold">User </div>
+								<div class="font-size-sm line-height-sm opacity-50">
+									Senior developer
+								</div>
+							</div>
+
+							<div class="ml-3 align-self-center">
+								<button type="button" class="btn btn-outline-light-100 text-white border-transparent btn-icon rounded-pill btn-sm sidebar-control sidebar-main-resize d-none d-lg-inline-flex">
+									<i class="icon-transmission"></i>
+								</button>
+
+								<button type="button" class="btn btn-outline-light-100 text-white border-transparent btn-icon rounded-pill btn-sm sidebar-mobile-main-toggle d-lg-none">
+									<i class="icon-cross2"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /user menu -->
+				<!-- Main navigation -->
+				<div class="sidebar-section">
+					<ul class="nav nav-sidebar" data-nav-type="accordion">
+
+						<!-- Main -->
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
+						<li class="nav-item">
+							<a href="index.html" class="nav-link active">
+								<i class="icon-home4"></i>
+								<span>
+									Dashboard
+								</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-copy"></i> <span>Layouts</span></a>
+
+							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
+								<li class="nav-item"><a href="index.html" class="nav-link active">Default layout</a></li>
+							</ul>
+						</li>
+						<!-- /main -->
+						<!-- Forms -->
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu" title="Forms"></i></li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Form components</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Form components">
+								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Basic inputs</a></li>
+								<li class="nav-item"><a href="form_checkboxes_radios.html" class="nav-link">Checkboxes &amp; radios</a></li>
+								<li class="nav-item"><a href="form_select2.html" class="nav-link">Select2 selects</a></li>
+								<li class="nav-item"><a href="form_input_groups.html" class="nav-link">Input groups</a></li>
+							</ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-select2"></i> <span>Pickers</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Pickers">
+								<li class="nav-item"><a href="picker_date.html" class="nav-link">Date &amp; time pickers</a></li>
+								<li class="nav-item"><a href="picker_color.html" class="nav-link">Color pickers</a></li>
+								<li class="nav-item"><a href="picker_location.html" class="nav-link">Location pickers</a></li>
+							</ul>
+						</li>
+						<!-- /forms -->
+						<!-- Components -->
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Components</div> <i class="icon-menu" title="Components"></i></li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-grid"></i> <span>Basic components</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Basic components">
+								<li class="nav-item"><a href="components_modals.html" class="nav-link">Modals</a></li>
+								<li class="nav-item"><a href="components_dropdowns.html" class="nav-link">Dropdown menus</a></li>
+								<li class="nav-item"><a href="components_tabs.html" class="nav-link">Tabs component</a></li>
+								<li class="nav-item"><a href="components_pills.html" class="nav-link">Pills component</a></li>
+								<li class="nav-item"><a href="components_collapsible.html" class="nav-link">Collapsible</a></li>
+								<li class="nav-item"><a href="components_navs.html" class="nav-link">Navs</a></li>
+								<li class="nav-item"><a href="components_buttons.html" class="nav-link">Buttons</a></li>
+								<li class="nav-item"><a href="components_popups.html" class="nav-link">Tooltips and popovers</a></li>
+								<li class="nav-item"><a href="components_alerts.html" class="nav-link">Alerts</a></li>
+								<li class="nav-item"><a href="components_pagination.html" class="nav-link">Pagination</a></li>
+								<li class="nav-item"><a href="components_badges.html" class="nav-link">Badges</a></li>
+								<li class="nav-item"><a href="components_progress.html" class="nav-link">Progress</a></li>
+								<li class="nav-item"><a href="components_breadcrumbs.html" class="nav-link">Breadcrumbs</a></li>
+								<li class="nav-item"><a href="components_media.html" class="nav-link">Media objects</a></li>
+								<li class="nav-item"><a href="components_scrollspy.html" class="nav-link">Scrollspy</a></li>
+							</ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-thumbs-up2"></i> <span>Icons</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Icons">
+								<li class="nav-item"><a href="icons_fontawesome.html" class="nav-link">Font awesome</a></li>
+							</ul>
+						</li>
+						<!-- /components -->
+						<!-- Extensions -->
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Extensions</div> <i class="icon-menu" title="Extensions"></i></li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-puzzle4"></i> <span>Extensions</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Extensions">
+								<li class="nav-item"><a href="extension_image_cropper.html" class="nav-link">Image cropper</a></li>
+								<li class="nav-item"><a href="extension_blockui.html" class="nav-link">Block UI</a></li>
+								<li class="nav-item"><a href="extension_dnd.html" class="nav-link">Drag and drop</a></li>
+							</ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-upload"></i> <span>File uploaders</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="File uploaders">
+								<li class="nav-item"><a href="uploader_plupload.html" class="nav-link">Plupload</a></li>
+								<li class="nav-item"><a href="uploader_bootstrap.html" class="nav-link">Bootstrap file uploader</a></li>
+								<li class="nav-item"><a href="uploader_dropzone.html" class="nav-link">Dropzone</a></li>
+							</ul>
+						</li>
+						<!-- /extensions -->
+						<!-- Tables -->
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Tables</div> <i class="icon-menu" title="Tables"></i></li>
+
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-versions"></i> <span>Responsive tables</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Responsive tables">
+								<li class="nav-item"><a href="table_responsive.html" class="nav-link">Responsive basic tables</a></li>
+								<li class="nav-item"><a href="datatable_responsive.html" class="nav-link">Responsive data tables</a></li>
+							</ul>
+						</li>
+						<!-- /tables -->
+						<!-- Page kits -->
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Page kits</div> <i class="icon-menu" title="Page kits"></i></li>
+
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-wrench3"></i> <span>Service pages</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Service pages">
+
+								<li class="nav-item nav-item-submenu">
+									<a href="#" class="nav-link">Authentication</a>
+									<ul class="nav nav-group-sub">
+										<li class="nav-item"><a href="login_simple.html" class="nav-link">Simple login</a></li>
+										<li class="nav-item"><a href="login_advanced.html" class="nav-link">More login info</a></li>
+										<li class="nav-item"><a href="login_registration.html" class="nav-link">Simple registration</a></li>
+										<li class="nav-item"><a href="login_registration_advanced.html" class="nav-link">More registration info</a></li>
+										<li class="nav-item"><a href="login_unlock.html" class="nav-link">Unlock user</a></li>
+										<li class="nav-item"><a href="login_password_recover.html" class="nav-link">Reset password</a></li>
+										<li class="nav-item"><a href="login_hide_navbar.html" class="nav-link">Hide navbar</a></li>
+										<li class="nav-item"><a href="login_transparent.html" class="nav-link">Transparent box</a></li>
+										<li class="nav-item"><a href="login_background.html" class="nav-link">Background option</a></li>
+										<li class="nav-item"><a href="login_validation.html" class="nav-link">With validation</a></li>
+										<li class="nav-item"><a href="login_tabbed.html" class="nav-link">Tabbed form</a></li>
+										<li class="nav-item"><a href="login_modals.html" class="nav-link">Inside modals</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<!-- /page kits -->
+
+					</ul>
+				</div>
+				<!-- /main navigation -->
+
+			</div>
+			<!-- /sidebar content -->
+
+		</div>
+		<!-- /main sidebar -->
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Inner content -->
+			<div class="content-inner">
+
+				<!-- Page header -->
+				<div class="page-header page-header-light">
+					<div class="page-header-content header-elements-lg-inline">
+						<div class="page-title d-flex">
+							<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Pickers</span> - Date &amp; Time</h4>
+							<a href="#" class="header-elements-toggle text-body d-lg-none"><i class="icon-more"></i></a>
+						</div>
+
+						<div class="header-elements d-none">
+							<div class="d-flex justify-content-center">
+								<a href="#" class="btn btn-link btn-float text-body"><i class="icon-bars-alt text-primary"></i><span>Statistics</span></a>
+								<a href="#" class="btn btn-link btn-float text-body"><i class="icon-calculator text-primary"></i> <span>Invoices</span></a>
+								<a href="#" class="btn btn-link btn-float text-body"><i class="icon-calendar5 text-primary"></i> <span>Schedule</span></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="breadcrumb-line breadcrumb-line-light header-elements-lg-inline">
+						<div class="d-flex">
+							<div class="breadcrumb">
+								<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
+								<a href="picker_date.html" class="breadcrumb-item">Pickers</a>
+								<span class="breadcrumb-item active">Date &amp; time</span>
+							</div>
+
+							<a href="#" class="header-elements-toggle text-body d-lg-none"><i class="icon-more"></i></a>
+						</div>
+
+						<div class="header-elements d-none">
+							<div class="breadcrumb justify-content-center">
+								<a href="#" class="breadcrumb-elements-item">
+									<i class="icon-comment-discussion mr-2"></i>
+									Support
+								</a>
+
+								<div class="breadcrumb-elements-item dropdown p-0">
+									<a href="#" class="breadcrumb-elements-item dropdown-toggle" data-toggle="dropdown">
+										<i class="icon-gear mr-2"></i>
+										Settings
+									</a>
+
+									<div class="dropdown-menu dropdown-menu-right">
+										<a href="#" class="dropdown-item"><i class="icon-user-lock"></i> Account security</a>
+										<a href="#" class="dropdown-item"><i class="icon-statistics"></i> Analytics</a>
+										<a href="#" class="dropdown-item"><i class="icon-accessibility"></i> Accessibility</a>
+										<div class="dropdown-divider"></div>
+										<a href="#" class="dropdown-item"><i class="icon-gear"></i> All settings</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /page header -->
+				<!-- Content area -->
+				<div class="content">
+
+					<!-- Daterange picker -->
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Daterange picker</h5>
+						</div>
+
+						<div class="card-body">
+							<p class="mb-3">This date range picker component for <code>Bootstrap</code> creates a dropdown menu from which a user can select a range of dates. If invoked with no options, it will present two calendars to choose a start and end date from. Optionally, you can provide a list of date ranges the user can select from instead of choosing dates from the calendars.</p>
+
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Basic date range picker:</label>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar22"></i></span>
+											</span>
+											<input type="text" class="form-control daterange-basic" value="01/01/2015 - 01/31/2015">
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label>Display week numbers:</label>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar22"></i></span>
+											</span>
+											<input type="text" class="form-control daterange-weeknumbers" value="03/18/2013 - 03/23/2013">
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label>Display time picker:</label>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar22"></i></span>
+											</span>
+											<input type="text" class="form-control daterange-time" value="03/18/2013 - 03/23/2013">
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label>Basic single date picker:</label>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar22"></i></span>
+											</span>
+											<input type="text" class="form-control daterange-single" value="03/18/2013">
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label>Simple text field attachment:</label>
+										<input type="text" class="form-control daterange-basic" value="03/18/2013 - 03/23/2013">
+									</div>
+
+									<div class="form-group">
+										<label>Button class options:</label>
+										<input type="text" class="form-control daterange-buttons" value="03/18/2013 - 03/23/2013">
+									</div>
+								</div>
+
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Show picker on right:</label>
+										<div class="input-group">
+											<input type="text" class="form-control daterange-left" value="03/18/2013 - 03/23/2013">
+											<span class="input-group-append">
+												<span class="input-group-text"><i class="icon-calendar22"></i></span>
+											</span>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label>Display date dropdowns:</label>
+										<div class="input-group">
+											<input type="text" class="form-control daterange-datemenu" value="03/18/2013 - 03/23/2013">
+											<span class="input-group-append">
+												<span class="input-group-text"><i class="icon-calendar22"></i></span>
+											</span>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label>10 minute increments:</label>
+										<div class="input-group">
+											<input type="text" class="form-control daterange-increments" value="08/01/2013 1:00 PM - 08/01/2013 1:30 PM">
+											<span class="input-group-append">
+												<span class="input-group-text"><i class="icon-calendar22"></i></span>
+											</span>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label>Localization (ru):</label>
+										<div class="input-group">
+											<input type="text" class="form-control daterange-locale" value="08/01/2013 1:00 PM - 08/01/2013 1:30 PM">
+											<span class="input-group-append">
+												<span class="input-group-text"><i class="icon-calendar22"></i></span>
+											</span>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label class="d-block">Pre-defined ranges &amp; callback:</label>
+										<button type="button" class="btn btn-light daterange-predefined">
+											<i class="icon-calendar22 mr-2"></i>
+											<span></span>
+										</button>
+									</div>
+
+									<div class="form-group">
+										<label class="d-block">Date picker inside button:</label>
+										<button type="button" class="btn btn-danger daterange-ranges">
+											<i class="icon-calendar22 mr-2"></i>
+											<span></span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /daterange picker -->
+					<!-- Pickadate picker -->
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Pick-a-Date picker</h5>
+						</div>
+
+						<div class="card-body">
+							<p class="mb-3">Pickadate.js is a very powerful, mobile-friendly, responsive, and lightweight jQuery date &amp; time input picker. The basic setup requires targetting an input element and invoking the picker. Basically this plugin includes 2 main parts: date picker and time picker. Time picker examples demonstrated below.</p>
+
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Basic options</h6>
+										<p>The basic setup requires targetting an input element and invoking the picker.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Strings</h6>
+										<p>Change the month and weekday labels as you find suitable.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-strings rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Buttons</h6>
+										<p>Change the text or hide a button completely by passing a false-y value.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-buttons rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Formats</h6>
+										<p>Display a human-friendly format and use an alternate one to submit to the server.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-format rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Year selector</h6>
+										<p>You can also specify the number of years to show in the dropdown using an even integer.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-year rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">First weekday</h6>
+										<p>The first day of the week can be set to either Sunday or Monday.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-weekday rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-3">
+										<h6 class="font-weight-semibold">Date limits</h6>
+										<p>Set the minimum and maximum selectable dates on the picker.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-limits rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-6">
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Accessibility labels</h6>
+										<p>Change the <code>title</code> attributes to several elements within the picker</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-accessibility rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Editable input</h6>
+										<p>By default, typing into the input is disabled by giving it a <code>readOnly</code> attribute.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-editable rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Dropdown selectors</h6>
+										<p>Display <code>select</code> menus to pick the month and year.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-selectors rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Translations</h6>
+										<p>The picker supports translations for 39 languages, available out of the box.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-translated rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Disable ranges</h6>
+										<p>Enable dates that fall within a range of disabled dates by adding the <code>inverted</code> parameter.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-disable-range rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Events</h6>
+										<p>Fire off events as the user interacts with the picker.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-events rounded-right" placeholder="Open your console and try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-3">
+										<h6 class="font-weight-semibold">Disable dates</h6>
+										<p>Disable a specific or arbitrary set of dates selectable on the picker.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-calendar5"></i></span>
+											</span>
+											<input type="text" class="form-control pickadate-disable rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /pickadate picker -->
+					<!-- Pickatime picker -->
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Pick-a-Time time picker</h5>
+						</div>
+
+						<div class="card-body">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Basic options</h6>
+										<p>The basic setup requires targetting an <code>input</code> element and invoking the picke.r</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Clear button</h6>
+										<p>Change the text or hide the button completely by passing a <code>false-y</code> value.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-clear rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Timepicker formats</h6>
+										<p>Display a human-friendly label and <code>input</code> format and use an alternate one to submit.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-format rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Send the hidden value only</h6>
+										<p>Sometimes the value that needs to be sent to the server is just the hidden value – and not the visible one.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-hidden rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Time limits</h6>
+										<p>Set the minimum and maximum selectable times on the picker.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-limits rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-3">
+										<h6 class="font-weight-semibold">Using integers as hours</h6>
+										<p>Set the minimum and maximum selectable times on the picker using integers as hours.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-limits-integers rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-6">
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Disable times</h6>
+										<p>Disable a specific or arbitrary set of times selectable on the picker</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-disabled rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Disabling ranges</h6>
+										<p>Enable times that fall within a range of disabled times by adding the <code>inverted</code> parameter.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-range rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Editable input</h6>
+										<p>By default, text input has a <code>readOnly</code> attribute to hide virtual keyboards on touch devices.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-editable rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Timepicker events</h6>
+										<p>Fire off events as the user interacts with the picker</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-events rounded-right" placeholder="Open your console and try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-4">
+										<h6 class="font-weight-semibold">Disabling all with exeptions</h6>
+										<p>Enable only a specific or arbitrary set of times by setting true as the first item in the collection.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-disableall rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+
+									<div class="mb-3">
+										<h6 class="font-weight-semibold">Timepicker intervals</h6>
+										<p>Choose the minutes interval between each time in the list.</p>
+										<div class="input-group">
+											<span class="input-group-prepend">
+												<span class="input-group-text"><i class="icon-alarm"></i></span>
+											</span>
+											<input type="text" class="form-control pickatime-intervals rounded-right" placeholder="Try me&hellip;">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /pickadate picker -->
+
+				</div>
+				<!-- /content area -->
+				<!-- Footer -->
+				<div class="navbar navbar-expand-lg navbar-light border-bottom-0 border-top">
+					<div class="text-center d-lg-none w-100">
+						<button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
+							<i class="icon-unfold mr-2"></i>
+							Footer
+						</button>
+					</div>
+
+					<div class="navbar-collapse collapse" id="navbar-footer">
+						<span class="navbar-text">
+							&copy; 2024. <a href="#">Demo App</a> by <a href="https://themeforest.net/user/Kopyov" target="_blank">FC</a>
+						</span>
+
+						<ul class="navbar-nav ml-lg-auto">
+							<li class="nav-item"><a href="https://kopyov.ticksy.com/" class="navbar-nav-link" target="_blank"><i class="icon-lifebuoy mr-2"></i> Support</a></li>
+							<li class="nav-item"><a href="https://demo.interface.club/limitless/docs/" class="navbar-nav-link" target="_blank"><i class="icon-file-text2 mr-2"></i> Docs</a></li>
+							<li class="nav-item"><a href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328?ref=kopyov" class="navbar-nav-link font-weight-semibold"><span class="text-pink"><i class="icon-cart2 mr-2"></i> Purchase</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer -->
+
+			</div>
+			<!-- /inner content -->
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+
+<!-- Mirrored from demo.interface.club/limitless/demo/Template/layout_1/LTR/default/full/picker_date.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Mar 2022 07:34:15 GMT -->
+</html>
